@@ -1,0 +1,122 @@
+.emailingSystem {
+  display: flex;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+.BotDesignRootEmail {
+  width: 75%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainRoot {
+  padding-bottom: 4rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  border-radius: 0.75rem;
+  flex-direction: column;
+  width: 25%;
+  display: flex;
+  margin-right: 2rem;
+}
+.mainRightRoot {
+  padding-bottom: 4rem;
+  --tw-bg-opacity: 1;
+  background-color: lightgrey;
+  border-radius: 0.75rem;
+  flex-direction: column;
+  width: 75%;
+  display: flex;
+  margin-right: 2rem;
+}
+.newMailBtnArea {
+  padding-top: 2rem;
+  text-align: center;
+  width: 100%;
+}
+.newMailBtn {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgba(204, 43, 124, var(--tw-bg-opacity));
+  border-radius: 0.75rem;
+  width: 14rem;
+  height: 3rem;
+  padding: 0;
+  line-height: inherit;
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  font-size: 100%;
+}
+.sidebarMainClientsMainMail {
+  border-radius: 9999px;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottomToolEditMail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidebarMainClientsTextMail {
+  margin-left: 1rem;
+  margin-top: 2rem;
+  font-size: 20px;
+}
+/* ********************************** */
+
+.TooltipInput {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  height: 3.5rem;
+  margin-top: 1rem;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  width: 100%;
+}
+.oneTooltip{
+  display: flex;
+  justify-content: space-between;
+}
+.tooltipName{
+  width: 30%;
+}
+.tooltipcontent{
+  width: 65%;
+}
+p{
+  font-weight: 600!important;
+  font-size: 20px;
+}
+.fa-plus-square{
+  font-size: 25px;
+  overflow: hidden;
+}
+.addemailBtn{
+  width: 180px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  border-style: none !important;
+  background-color: #cc2b7c;
+  color: white;
+  margin-top: 1rem;
+}
+::placeholder{
+  font-size: 17px;
+}

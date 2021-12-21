@@ -1,0 +1,90 @@
+.settingRoot {
+       padding-top: 4rem; 
+           --tw-bg-opacity: 1;
+    background-color: rgba(251,252,255,var(--tw-bg-opacity));
+        height: 100%;
+}
+.settingRootTop {
+        padding-bottom: 4rem;
+            --tw-bg-opacity: 1;
+    background-color: rgba(255,255,255,var(--tw-bg-opacity));
+    margin-bottom: 4rem;
+        margin-left: 5rem;
+    margin-right: 5rem;
+
+}
+.settingRootTopBackground {
+    padding-left: 2rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        --tw-bg-opacity: 1;
+    background-color: rgba(229,232,242,var(--tw-bg-opacity));
+        border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+        width: 100%;
+}
+.settingRootTopText {
+        --tw-text-opacity: 1;
+    color: rgba(204,43,124,var(--tw-text-opacity));
+        font-weight: 600;
+        font-size: 1rem;
+    line-height: 1.5rem;
+}
+.settingRootMediumImgArea {
+    width: 100%;
+        margin-top: 1rem;
+        display:flex;
+        justify-content:center;
+}
+.settingRootMediumImg {
+    border-radius: 9999px;
+        width: 8rem;
+            height: 8rem;
+                margin-left: auto;
+    margin-right: auto;
+}
+.settingRootBottomArea {
+      display: flex;  
+          margin-bottom: 8rem;
+          margin-top: 3rem;
+              margin-left: 4rem;
+    margin-right: 4rem;
+}
+.settingRootBottomOld {
+    width: 100%;
+        margin-right: 2rem;
+}
+.onInput {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+        padding: 1rem;
+            width: 100%;
+                height: 3rem;
+                    margin-top: 1rem;
+                        border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+.lastBottomArea {
+    text-align: center;
+}
+.lastBottomAreaBtn {
+       box-shadow: var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow);
+    --tw-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+    --tw-text-opacity: 1;
+    color: rgba(255,255,255,var(--tw-text-opacity));
+    padding-left: 1rem;
+    padding-right: 1rem;
+    --tw-bg-opacity: 1;
+    background-color: rgba(204,43,124,var(--tw-bg-opacity));
+    border-radius: 0.25rem;
+    height: 4rem;
+    padding: 0;
+    line-height: inherit;
+    cursor: pointer;
+    border: none;
+    text-transform: none;
+    font-family: inherit;
+    font-size: 100%;
+    width:10rem;
+}

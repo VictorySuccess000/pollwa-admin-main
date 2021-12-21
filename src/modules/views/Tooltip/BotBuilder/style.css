@@ -1,0 +1,98 @@
+.ant-select-selection.ant-select-selection--single {
+    border-radius: 0px 8px 8px 0px;
+    height: 53px;
+}
+
+.ant-select-selection-selected-value {
+    height: 53px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.ant-select-selection__rendered {
+    padding: 0px;
+    margin: 0px;
+}
+
+.ant-select-dropdown-menu.ant-select-dropdown-menu-root.ant-select-dropdown-menu-vertical {
+    padding: 0px;
+    margin: 0px;
+}
+
+.ant-select-dropdown-menu-item {
+    padding: 0px;
+    margin: 0px;
+}
+.draftJsToolbar__toolbar__dNtBH{
+    border-radius: 0 0 10px 10px;
+    /* max-height: 30px; */
+    background: #e2e2e2;
+}
+.draftJsToolbar__button__qi1gf{
+    /* border-radius:  0 0 0 10px; */
+    /* max-height: 30px; */
+    background:#e2e2e2;
+    max-height: 27px ;
+    padding-top: 0px !important;
+    font-size: 0px;
+    border-bottom-left-radius: 10px;
+}
+.searchboxWrapper {
+    background-color: #fff;
+    border-radius: 0.3rem;
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 15px;
+    box-shadow: 0 0.3rem 1rem rgba(8, 38, 78, 0.2);
+  }
+  .bZbZKG .DraftEditor-root {
+      padding: 0px !important;
+      border-bottom: inset !important;
+ }
+  .draftJsToolbar__button__qi1gf > svg{
+    max-height: 15px;
+
+  }
+  .draftJsToolbar__buttonWrapper__1Dmqh{
+      max-width: 25px !important;
+      max-height: 10px !important;
+  }
+  .fKZjCC .DraftEditor-root{
+      padding:10px;
+      padding-bottom: 10rem;
+  }
+
+  div.DraftEditor-root {
+    height: 30vh;
+    overflow-y: auto;
+   }
+  div.DraftEditor-editorContainer,
+  div.public-DraftEditor-content {
+    height: 80%;
+  }
+
+ .modalcontainer .myoverlay {
+      z-index: 100000;
+  }
+
+.editor-classs {
+    padding-bottom: 2rem;
+}
+
+
+
+.mymodal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    background: #fff;
+    /* overflow: auto; */
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+    border-radius: 17px;
+    /* overflow: hidden; */
+  }
+  

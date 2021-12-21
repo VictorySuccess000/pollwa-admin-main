@@ -1,0 +1,92 @@
+.logo {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  width: 12rem;
+  height: 8rem;
+}
+.Leftbody {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.subText {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  margin-top: -5px;
+}
+@media (min-width: 768px) {
+  .subText {
+    text-align: left;
+  }
+}
+.loginFormEmail {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.emailText {
+  --tw-text-opacity: 1;
+  color: rgba(142, 146, 146, var(--tw-text-opacity));
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+@media (min-width: 1024px) {
+  .emailInput {
+    width: 75%;
+  }
+  .passwordInput {
+    width: 75%;
+  }
+  .loginBtn {
+    width: 75%;
+  }
+}
+.emailInput {
+  outline-offset: 2px;
+  outline: transparent solid 2px;
+  padding: 1rem;
+  height: 3.5rem;
+  margin-top: 1rem;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+.loginFormPassword {
+  display: flex;
+  flex-direction: column;
+}
+.passwordText {
+  --tw-text-opacity: 1;
+  color: rgba(142, 146, 146, var(--tw-text-opacity));
+  font-size: 1.125rem /* 18px */;
+  line-height: 1.75rem /* 28px */;
+}
+.passwordInput {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  height: 3.5rem;
+  margin-top: 1rem;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+}
+.loginFormButton {
+  flex-direction: column;
+  display: flex;
+  margin-top: 2rem;
+}
+.loginBtn {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.75rem;
+  height: 2.5rem;
+  margin-top: 1rem;
+  text-decoration: inherit;
+}

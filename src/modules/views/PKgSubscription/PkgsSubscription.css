@@ -1,0 +1,175 @@
+.PkgsSubscriptionRoot {
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+    --tw-bg-opacity: 1;
+    background-color: rgba(251,252,255,var(--tw-bg-opacity));
+}
+.PkgsSubscriptionData {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.PkgsSubscriptionSubData {
+    padding: 0.5rem;
+}
+.PkgsSubscriptionSearchInput {
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    margin-bottom: 0.75rem;
+    position: relative;
+}
+.PkgsSubscriptionSearchInputIcon {
+    --tw-text-opacity: 1;
+    color: rgba(156,163,175,var(--tw-text-opacity));
+    line-height: 1.375;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    padding-left: 0.75rem;
+    padding-bottom: 0.75rem;
+    background-color: transparent;
+    border-radius: 0.25rem;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 100%;
+    display: flex;
+    z-index: 10;
+    position: absolute;
+}
+.PkgsSubscriptionSearchReal {
+    background: #fff;
+    box-shadow: 0 4px 4px #e3e5ed;
+    border-radius: 16px;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    --tw-bg-opacity: 1;
+    border-width: 0;
+}
+.PkgsSubscriptionPassBtn {
+    box-shadow: var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow);
+    --tw-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+    --tw-text-opacity: 1;
+    color: rgba(255,255,255,var(--tw-text-opacity));
+    padding-left: 1rem;
+    padding-right: 1rem;
+    --tw-bg-opacity: 1;
+    background-color: rgba(204,43,124,var(--tw-bg-opacity));
+    border-radius: 0.25rem;
+    height: 3rem;
+    padding: 0;
+    line-height: inherit;
+    cursor: pointer;
+    border: none;
+    text-transform: none;
+    font-family: inherit;
+    font-size: 100%;
+    width:12rem;
+}
+.PkgsSubscriptionBtmData {
+    flex-wrap: wrap;
+    display: flex;
+}
+.PkgsSubscriptionBtmSubData {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.PkgsSubscriptionBtmSubDataOne {
+        background: #fff;
+    box-shadow: 0 4px 4px #e3e5ed;
+    border-radius: 16px;
+    -tw-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);
+        --tw-bg-opacity: 1;
+            width: 18rem;
+                height: 24rem;
+                    position: relative;
+}
+.PkgsSubscriptionBtmSubDataOneImg {
+    width: 100%;
+    height: 3rem;
+        display: block;
+    vertical-align: middle;
+}
+.PkgsSubscriptionBtmTopText {
+    display: flex;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.textOne {
+    --tw-text-opacity: 1;
+    color: rgba(142,146,146,var(--tw-text-opacity));
+        margin-right: 5rem;
+}
+.textTwo {
+    font-weight: 700;
+        font-size: 1rem;
+    line-height: 1.5rem;
+}
+.textOnePrice {
+        --tw-text-opacity: 1;
+    color: rgba(142,146,146,var(--tw-text-opacity));
+}
+.textTwoPrice {
+    display:flex;
+        height:1rem;
+}
+.textTwoPriceCost {
+        --tw-text-opacity: 1;
+    color: rgba(204,43,124,var(--tw-text-opacity));
+    font-weight: 700;
+        font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 0rem;
+
+}
+.textTwoPriceTitle {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+        margin-top: 0rem;
+}
+.checklist {
+        --tw-text-opacity: 1;
+    color: rgba(142,146,146,var(--tw-text-opacity));
+        margin-left: 1rem;
+        
+}
+.checklistflex {
+    display: flex;
+    margin-top:-15px;
+}
+.checklist {
+        margin-right: 0.5rem;
+            display: block;
+}
+.bottomTool {
+        display: flex;
+        margin-bottom: 1rem;
+            margin-left: 2rem;
+    margin-right: 2rem;
+        bottom: 0;
+            position: absolute;
+}
+.bottomToolEdit {
+        width: 3rem;
+            height: 2.5rem;
+            margin-right: 1rem;
+            cursor:pointer;
+}
+.bottomToolDelete {
+        width: 2.5rem;
+        height: 2.5rem;
+        cursor:pointer;
+}

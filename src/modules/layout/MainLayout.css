@@ -1,0 +1,58 @@
+.fullScreen {
+    max-height: 100vh;
+    display: flex;
+}
+.LeftScreen {
+        overflow: hidden;
+width: 20%;
+max-height: 100vh;
+height: 100vh;
+}
+.RightScreen {
+         flex-direction: column;
+       width: 80%;
+    height: 100vh;
+    display: flex;
+}
+.RightScreenTop {
+        box-shadow: var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow);
+            --tw-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+                --tw-bg-opacity: 1;
+    background-color: rgba(255,255,255,var(--tw-bg-opacity));
+        width: 100%;
+    height: 5rem;
+}
+.wFull {
+          width: 100%;  
+}
+.wAllFull {
+            justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+}
+.wFullText {
+    color: rgb(204, 43, 124) !important;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+    align-self: center;
+    margin-left: 3rem;
+}
+.wFullImg {
+    border-radius: 9999px;
+    width: 4rem;
+    height: 4rem;
+    margin-right: 4rem;
+    margin-top: 0.5rem;
+    float: right;
+}
+.RightScreenBottom {
+    --tw-bg-opacity: 1;
+    background-color: rgba(251,252,255,var(--tw-bg-opacity));
+    overflow-y: auto;
+    flex: 1 1 0%;
+    width: 100%;
+}

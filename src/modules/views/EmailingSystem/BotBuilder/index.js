@@ -1,0 +1,19 @@
+import React from "react";
+import MainLeft from "./mainLeft";
+import MainRight  from "./mainRight";
+
+import "./style.css";
+
+const BotBuilder = () => {
+  return (
+    <>
+      <div className="h-8"></div>
+      <div className="emailingSystem">
+        <MainLeft />
+        <MainRight />
+      </div>
+    </>
+  );
+};
+
+export default BotBuilder;
