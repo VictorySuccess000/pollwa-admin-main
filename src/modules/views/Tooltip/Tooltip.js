@@ -135,7 +135,7 @@ class BotTemplate extends Component {
                 <button
                   className="addBtn"
                   onClick={this.addtooltip}
-                ><i className="fa fa-plus-square"/>&nbsp;&nbsp; Add Tooltip</button>
+                >+ Add Tooltip</button>
               </div>
             </div>
           </div>
